@@ -73,7 +73,7 @@ class Rectangle{
     int breadth;
 
     int areaOfRectange(){
-        int area = length * breadth;
+        int area = lenght * breadth;
         return area;
     }
 }

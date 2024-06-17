@@ -71,7 +71,7 @@ class Football{
         this.winner = winner;
     }
     void detail(){
-        System.out.println("Winner:" + winner + " Time:"+ time + " Goals:" + goal)
+        System.out.println("Winner:" + winner + " Time:"+ time + " Goals:" + goal);
     }
 }
 // Object

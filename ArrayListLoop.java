@@ -46,7 +46,7 @@ public class ArrayListLoop{
         for(int index = 0; index < animalLength; index ++){
             String singleAnimal = animals.get(index);
             if(singleAnimal == "Cat" || singleAnimal == "Dog"){
-                domesticAnimal.add(singleAnimal);
+                domesticAnimals.add(singleAnimal);
             }else{
                 wildAnimals.add(singleAnimal);
             }
@@ -54,7 +54,7 @@ public class ArrayListLoop{
         /* Using for - each */
         for(String elem: animals){
             if(elem == "Cat" || elem == "Dog"){
-                domesticAnimal.add(elem);
+                domesticAnimals.add(elem);
             }else{
                 wildAnimals.add(elem);
             }

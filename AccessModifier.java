@@ -25,7 +25,7 @@ class Task1{
         this.age = age;
     }
     void printDetail(){
-        System.out.printl(name + ", " + age + "and " + address)
+        System.out.println(name + ", " + age + "and " + address);
     }
 }
 class ThisExample{
